@@ -1,0 +1,386 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://images4.alphacoders.com/988/thumb-1920-988128.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navigation-container{
+    width: 100%;
+    height: 70px;
+    background-color: #ea272d;
+    box-shadow: 2px 2px 12px rgba(0,0,0,20);
+    position: fixed;
+    top: 0px;
+}
+
+.navigation-content{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 12%;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.cart img{
+    height: 30px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li a{
+     padding: 0px 30px;
+     font-family: 'Potta One', cursive;
+     font-weight: bold;
+     color: white;
+}
+
+
+
+.cart{
+    display: flex;
+    align-items: center;
+    font-family: 'Potta One', cursive;
+    font-weight: bold;
+}
+
+.cart a{
+    color: white;
+    margin: 0px 10px;
+}
+
+.whats-new{
+    display: flex;
+    justify-content: center;
+    margin: 7% 0px 20px 0px;
+}
+
+.new{
+    width: 540px;
+    height: 320px;
+    margin: 10px;
+    background-image: url(http://images.all-free-download.com/images/graphiclarge/delicious_fried_chicken_fries_highdefinition_picture_5p_167371.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new p{
+    color: white;
+    line-height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.new p:nth-child(1){
+    font-size: 40px;
+    font-family: 'Potta One', cursive;
+    font-weight: bold;
+}
+
+.new p:nth-child(2){
+    font-size: 30px;
+    font-family: 'Potta One', cursive;
+}
+
+.new button{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #ea272d;
+    font-family: 'Potta One', cursive;
+    font-weight: 400;
+    color:#ffffff;
+    font-size: 16px;
+    border:none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    outline: none;
+}
+
+.search,.order{
+    width: 540px;
+    height: 150px;
+    margin: 10px;
+    background-color: #b1b1b1;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-row{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.order{
+    background-image:url(https://tse4.mm.bing.net/th?id=OIP.JPmj3I3I4I8V1Q02nkB6rgHaDP&pid=Api&P=0&w=353&h=155) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search{
+
+        background-image:url(https://tse1.mm.bing.net/th?id=OIP.r7ptBSkvbP43KToyYuQjpAHaDd&pid=Api&P=0&w=369&h=173) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+.search p{
+      color: white;
+      font-size: 30px;
+      font-family: 'Potta One', cursive ;
+      font-weight: bold;
+      line-height: 0px;
+      text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+}
+
+.text{
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.text input[type=search]{
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
+    outline: none;
+}
+
+.text button{
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: #0b0b0b0b;
+    font-family: 'Potta One', cursive ;
+    font-weight: bold;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 1px solid #CDCACA;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order a{
+    font-size: 40px;
+    font-family:'Potta One', cursive;
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+.food-1,.food-2,.food-3{
+    width: 354px;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 5%;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.food-1 p,.food-2 p,.food-3 p{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family:'Potta One', cursive;
+    line-height: 40px;
+}
+
+.name p:nth-child(1){
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.name p:nth-child(2){
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.second-row{
+    display: flex;
+}
+
+.food-1{
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.I67W3sNADgFohZPgs5sjagHaH2&pid=Api&P=0&w=300&h=300);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food-2{
+    background-image: url(https://wallpapercave.com/wp/wp2186062.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food-3{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.JfkPv8Ksq9CcFtspm6-eKwHaEK&pid=Api&P=0&w=285&h=161);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.price button{
+    color: white;
+    border: none;
+    background-color: #ea272d;
+    outline: none;
+    width:70px;
+    height: 35px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+button :active{
+    transform: scale(1.2);
+    transition: all ease 0.5s;
+}
+
+.flavour,.breakfast{
+    font-family:'Potta One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+    width: 540px;
+    height: 180px;
+    margin: 10px;
+    background-color: #b1b1b1;
+}
+
+.third-row{
+    display: flex;
+}
+
+.flavour{
+    background-image: url(https://blog.mystart.com/wp-content/uploads/OGL_Pizza_5d2e2c562dce9a1a62498eb2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.breakfast{
+    background-image: url(https://giladiskon-uploads.s3-ap-southeast-1.amazonaws.com/images/deals/photo%20-%201512898134.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flavour p:nth-child(1),
+.breakfast p:nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.flavour p:nth-child(2),
+.breakfast p:nth-child(2){
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.flavour p,.breakfast p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 40px;
+}
+
+.flavour{
+    background-color: #0a0a0a;
+    height: 180px;
+}
+
+.social ul{
+    display: flex;
+}
+
+.social img{
+    height: 15px;
+}
+
+.social ul li a{
+    padding: 15px;
+}
+
+.social ul li a img{
+    height: 30px;
+    width: 30px;
+}
+
+.footer-menu ul li a{
+    color:rgba(255,255,255,0.8);
+}
+
+
+.navigation-content{
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Potta One', cursive;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.copyright p{
+    color: #b9b9b9;
+}
+
+.new,.order,.search,.food-1,.food-2,.food-3,.flavour,.breakfast{
+    border-radius: 10px;
+}
+
+
+
+
